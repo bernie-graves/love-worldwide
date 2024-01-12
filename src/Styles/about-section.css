@@ -1,0 +1,27 @@
+.about-section {
+    background-color: #9b1f27; /* red color */
+    padding: 2rem; /* Add some padding */
+    color: #dfdfdf;
+    width: 100%;
+    min-height: 100vh;
+    font-weight: bold;
+  }
+
+  .about-section h1 {
+    font-weight: bold;
+  }
+  .about-section h2 {
+    font-weight: bold;
+  }
+  .about-section h3 {
+    font-weight: bold;
+  }
+  .about-section h4 {
+    font-weight: bold;
+  }
+  .about-section h5 {
+    font-weight: bold;
+  }
+  .about-section h6 {
+    font-weight: bold;
+  }
