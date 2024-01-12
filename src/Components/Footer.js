@@ -25,7 +25,7 @@ const Footer = () => {
           </Col>
           <Col xs="auto">
             <a
-              href="https://tiktok.com"
+              href="https://www.tiktok.com/@lov3worldwid3"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="TikTok"
