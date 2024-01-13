@@ -22,9 +22,17 @@ const Header = () => {
         <Container>
           <Navbar.Brand as={Link} to="/">
             lov3 fest
+            <Navbar.Text style={{ fontSize: "15px" }}>
+              {" "}
+              | 03.07.2024
+            </Navbar.Text>
           </Navbar.Brand>
-          <Navbar.Text>| 03.07.2024</Navbar.Text>
-          <Navbar.Toggle onClick={handleShow} aria-controls="offcanvasNavbar" />
+
+          <Navbar.Toggle
+            onClick={handleShow}
+            aria-controls="offcanvasNavbar"
+            style={{ border: "none" }}
+          />
           <Navbar.Offcanvas
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
@@ -51,6 +59,12 @@ const Header = () => {
                   onClick={handleClose}
                 >
                   buy tickets
+                </Nav.Link>
+                <Nav.Link
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfp1JgnEVKwSjegqMDItofD2UrHEmyiIbiGArbWBAWgsnJnXw/viewform"
+                  onClick={handleClose}
+                >
+                  submit a film
                 </Nav.Link>
               </Nav>
             </Offcanvas.Body>

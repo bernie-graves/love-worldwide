@@ -40,7 +40,7 @@ const Countdown = () => {
   });
 
   return (
-    <div className="mx-0 fw-bold">
+    <div id="countdown" data-testid="countdown" className="mx-0 fw-bold">
       <div style={countdownStyle("days")}>
         {timeLeft.days}
         <span style={{ fontSize: "1rem" }}> days</span>

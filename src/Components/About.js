@@ -13,12 +13,12 @@ const About = () => {
       <Row>
         <Col md={6} className="mb-3">
           <p className="mb-1">date: march 7, 2024 at 3pm</p>
-          <p>location: The CAW (631 Garden St)</p>
+          <p>location: The CAW, 631 Garden St, Santa Barbara</p>
         </Col>
       </Row>
       <Row>
         <Col md={6} className="mb-3">
-          <h4>about the collective</h4>
+          <h4>the collective</h4>
           <p>
             At LOV3 Worldwide, our mission is to create a dynamic space for
             emerging artists, fostering creativity that defies the mainstream
@@ -30,7 +30,7 @@ const About = () => {
       </Row>
       <Row>
         <Col md={6}>
-          <h4>about the festival</h4>
+          <h4>the festival</h4>
           <p>
             Our launch event, LOV3 Fest, epitomizes our commitment to this
             mission. It is not just an event; it is a celebration of artistic

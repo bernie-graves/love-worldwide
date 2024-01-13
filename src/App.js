@@ -4,6 +4,7 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import MainContent from "./Components/MainContent";
 import About from "./Components/About";
+import RotatedBuyButton from "./Components/RotatedBuyButton";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Styles/about-section.css";
 
