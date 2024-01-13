@@ -16,6 +16,7 @@ function App() {
         <main>
           <section id="home">
             <MainContent />
+            <RotatedBuyButton />
           </section>
           <section className="about-section" id="about">
             <About />

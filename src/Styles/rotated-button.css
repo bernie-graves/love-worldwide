@@ -1,25 +1,19 @@
 .text-button {
-    color: inherit; /* or any color you want */
-    text-decoration: none; /* removes the underline */
+    text-decoration: none !important;
     background-color: transparent; /* removes any background */
+    color: #9b1f27 !important;
     border: none; /* removes the border */
     padding: 0; /* removes padding if you want the button to be just like text */
     box-shadow: none; /* removes box shadow if present */
     position: absolute; 
     bottom: 10%;
-    right: 10%;
+    right: 15%;
     transform: rotate(90deg);
     transform-origin: bottom right; /* Ensures rotation doesn't move the button */
     z-index: 1000; /* Ensure it's above other items */
     font-size: larger;
+    font-family: Arial, sans-serif !important;
+    font-weight: bolder;
   }
   
-  .rotated-button {
-    transform: rotate(90deg);
-    -webkit-transform: rotate(90deg); /* Safari and Chrome */
-    -moz-transform: rotate(90deg); /* Firefox */
-    -ms-transform: rotate(90deg); /* IE 9 */
-    -o-transform: rotate(90deg); /* Opera */
-    cursor: pointer; /* optional: changes the cursor to indicate it's clickable */
-  }
   

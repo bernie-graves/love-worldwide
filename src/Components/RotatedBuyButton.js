@@ -13,10 +13,14 @@ const RotatedBuyButton = () => {
   return (
     <Button
       variant="link"
-      className=" fw-bold text-button rotated-button"
+      className="text-button"
       onClick={handleClick}
       id="rotated-buy-button"
       data-testid="rotated-buy-button"
+      style={{
+        fontWeight: "bold",
+        fontSize: "larger",
+      }}
     >
       buy tickets
     </Button>

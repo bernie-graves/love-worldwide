@@ -11,7 +11,7 @@ const MainContent = () => {
         </h2>
         <h6 className="fw-bold">a film festival for the nobodies</h6>
         <Countdown />
-        <RotatedBuyButton />
+        {/* <RotatedBuyButton /> */}
       </div>
     </div>
   );
