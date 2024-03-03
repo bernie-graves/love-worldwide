@@ -1,0 +1,21 @@
+/* article-content.css */
+.article-container {
+    max-width: 650px;
+    margin: auto;
+  }
+  
+  .article-container h2 {
+    margin-top: 20px;
+  }
+  
+  .article-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .article-text {
+    padding-bottom: 30px;
+  }
+  
+  /* Add more styles as needed */
+  

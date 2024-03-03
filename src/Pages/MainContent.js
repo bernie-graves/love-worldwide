@@ -1,6 +1,5 @@
 import React from "react";
-import Countdown from "./Countdown"; // Make sure this points to the correct file path
-import RotatedBuyButton from "./RotatedBuyButton";
+import Countdown from "../Components/Countdown"; // Make sure this points to the correct file path
 
 const MainContent = () => {
   return (
@@ -11,7 +10,6 @@ const MainContent = () => {
         </h2>
         <h6 className="fw-bold">a film festival for the nobodies</h6>
         <Countdown />
-        {/* <RotatedBuyButton /> */}
       </div>
     </div>
   );

@@ -1,0 +1,19 @@
+/* Add this in your CSS file */
+.article-card {
+    height: 100%; /* Make sure card takes the full height of its container */
+  }
+  
+.preview-card-img-top {
+    height: 200px; /* Adjust as needed */
+    object-fit: cover; /* This will ensure images cover the area without distortion */
+  }
+  
+  .article-card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .article-card-text {
+    flex-grow: 1; /* This will push the date to the bottom */
+  }
+  

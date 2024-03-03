@@ -54,6 +54,9 @@ const Header = () => {
                 <Nav.Link as={HashLink} to="/#about" onClick={handleClose}>
                   about
                 </Nav.Link>
+                <Nav.Link as={HashLink} to="/blog" onClick={handleClose}>
+                  blog
+                </Nav.Link>
                 <Nav.Link
                   href="https://www.eventbrite.com/e/lov3-fest-tickets-791331091597?aff=oddtdtcreator"
                   onClick={handleClose}
