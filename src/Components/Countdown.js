@@ -12,7 +12,7 @@ const Countdown = () => {
   }, []);
 
   function getTimeLeft() {
-    const eventDate = new Date("March 7, 2024 15:00:00 PST").getTime();
+    const eventDate = new Date("March 7, 2024 17:00:00 PST").getTime();
     const currentTime = new Date().getTime();
     const difference = eventDate - currentTime;
 
